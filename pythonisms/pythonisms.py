@@ -11,9 +11,6 @@ class LinkedList :
     """method to create the linked list nodes  """
     self.head = None
     if collection:
-      #[1,2,3]
-      #{1}->{2}->{3}
-
       for item in reversed(collection):
         self.insert(item)
 
@@ -145,10 +142,10 @@ def sarcastic_decorator(func):
 @sarcastic_decorator
 def say(text):
   """ 
-  Say says the things
+  any thing you want to say
   """
   return text
 
 if __name__ == "__main__":
-  print("Running Now")
+  print("Running Now!")
   print(say("Moayad thinks he is awesome."))
